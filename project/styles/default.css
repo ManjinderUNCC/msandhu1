@@ -1,0 +1,122 @@
+/*
+This set up the font.
+*/
+.aleo{
+    font-family: Aleo;
+}
+/*
+This set up the font.
+*/
+.notoSerifDisplay{
+    font-family: "Noto Serif Display";
+}
+/*
+This set up the font.
+*/
+.Quantico{
+    font-family: Quantico;
+}
+/*
+This the margin and padding to zero.
+*/
+.zero{
+    margin: 0;
+    padding: 0;
+}
+/*
+This set up the background.
+*/
+.background{
+    background-image: url('../images/background3.jpg');
+    height: 100vh;
+    background-size: cover;
+
+}
+/*
+This set up the background color.
+*/
+.backgroundColor{
+    background-color: #C3BEF7;
+}
+/*
+This set up the text for the index page and centers it in the middle.
+*/
+.backgroundText{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+/*
+This set up the text for the index page..
+*/
+.titleH1{
+    font-weight: 900;
+}
+/*
+This centers the text.
+*/
+.centerText{
+    text-align: center;
+}
+/*
+This set up the color white.
+*/
+.colorWhite{
+    color: white;
+}
+/*
+This sets up the navigation menu and the dropdown menu with the hover effect.
+*/
+.menu{
+    width: 100%;
+    background-color: #5333ED;
+    color: white;
+}
+
+.internalMenu{
+    line-height: 50px;
+}
+
+.internalMenu2{
+    display: none;
+    width: 200px;
+    padding: 0;
+    background-color:#624ccf;
+    position:absolute;
+    text-transform: none;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu .internalMenu .displayMenu{
+    position: relative;
+    display: inline-block
+}
+
+.menu .internalMenu .displayMenu a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 28px;
+    cursor: pointer;
+}
+
+.displayMenu:hover .internalMenu2{
+    display: block;
+}
+
+.displayMenu2:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-left: 4px solid turquoise;
+}
+
+
+
